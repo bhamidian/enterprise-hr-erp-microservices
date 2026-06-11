@@ -2,16 +2,16 @@ package com.example.erp.departmentservice.dto;
 
 import jakarta.validation.constraints.NotBlank;
 
-public class CreateRequestRecordDto
+public class CreateDepartmentRequestDto
 {
     @NotBlank
     private String name;
     @NotBlank
     private String description;
 
-    public CreateRequestRecordDto() {}
+    public CreateDepartmentRequestDto() {}
 
-    public CreateRequestRecordDto( String name, String description)
+    public CreateDepartmentRequestDto(String name, String description)
 
     {
         this.name = name;

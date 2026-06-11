@@ -3,7 +3,7 @@ package com.example.erp.departmentservice.dto;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
-public class CreateResponseRecordDto
+public class CreateDepartmentResponseDto
 {
     private UUID id;
     private String name;
@@ -11,10 +11,10 @@ public class CreateResponseRecordDto
     private OffsetDateTime createdAt;
     private OffsetDateTime updatedAt;
 
-    public CreateResponseRecordDto() {}
+    public CreateDepartmentResponseDto() {}
 
-    public CreateResponseRecordDto(UUID id, String name, String description,
-                                  OffsetDateTime createdAt, OffsetDateTime updatedAt)
+    public CreateDepartmentResponseDto(UUID id, String name, String description,
+                                       OffsetDateTime createdAt, OffsetDateTime updatedAt)
     {
         this.id = id;
         this.name = name;
